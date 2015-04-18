@@ -1,0 +1,84 @@
+/*
+	Indice Slideshow:
+		#Size Image Slider
+		#Slider Content
+		#Time Slider
+		#Sliders
+*/
+/* #Size Image Slider */
+.slider-image{
+  width: 100%;
+  height: 566px;
+}
+/* #Slider Content */
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 566px;
+  margin: 0 auto;
+  z-index: -1;
+  margin-top: -559px;
+}
+.slideshow:before,
+.slideshow:after {
+	position: absolute;
+	display:block;
+	bottom:16px;
+	width: 50%;
+	height: 20px;
+	z-index: -10;
+}
+
+.slideshow .slideshow-container {
+	position: relative;
+  width: 100%;
+  height: 566px;
+  overflow: hidden;
+}
+/* #Time Slider */
+.slideshow .slideshow-container:after {
+	position:absolute;
+	bottom: 0; 
+	left:0;
+	width: 100%;
+	height: 1px;
+}
+
+@-webkit-keyframes slider {
+	0%, 20%, 100%	{ left: 0 }
+	25%, 45%		{ left: -100% }
+	50%, 70%		{ left: -200% }
+	75%, 95%		{ left: -300% }
+}
+@-moz-keyframes slider {
+	0%, 20%, 100%	{ left: 0 }
+	25%, 45%		{ left: -100% }
+	50%, 70%		{ left: -200% }
+	75%, 95%		{ left: -300% }
+}
+@keyframes slider {
+	0%, 20%, 100%	{ left: 0 }
+	25%, 45%		{ left: -100% }
+	50%, 70%		{ left: -200% }
+	75%, 95%		{ left: -300% }
+}
+/* #Sliders */
+.slideshow .slider {
+	position: absolute;
+	left:0; top:0;
+  width: 501%;
+  height: 566px;
+	
+	-webkit-animation: slider 15s infinite;
+	-moz-animation: slider 15s infinite;
+	animation: slider 15s infinite;
+}
+.slideshow .slider-content {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 20%;
+  height: 566px;
+  display: inline-block;
+  margin-right: -6px;
+}

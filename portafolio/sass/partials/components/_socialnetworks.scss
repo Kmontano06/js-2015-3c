@@ -1,0 +1,59 @@
+/*
+	Indice Social Networks:
+		#List Social Networks
+		#List Social Networks Items
+		#Size Logo Social Networks
+		#Background Social Networks
+		#Hovers Social Networks
+*/
+/* #List Social Networks */
+.list-network{
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+	margin-left:440px;
+	margin-top:25px;
+}
+/* #List Social Networks Items */
+.list-network .list-network-item{
+	display:inline-block;
+}
+/* #Size Logo Social Networks */
+.size-image{
+  width: 50px;
+  height: 51px;
+}
+/* #Background Social Networks */
+.list-network .list-item-github{
+		background: url(../img/github.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-network .list-item-facebook{
+		background: url(../img/facebook.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-network .list-item-twitter{
+		background: url(../img/twitter.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-network .list-item-google{
+		background: url(../img/googleplus.png) no-repeat;
+		background-size:50px 50px;
+}
+/* #Hovers Social Networks */
+.list-network .list-item-github:hover{
+		background: url(../img/github_hover.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-network .list-item-facebook:hover{
+		background: url(../img/facebook_hover.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-network .list-item-twitter:hover{
+		background: url(../img/twitter-hover.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-network .list-item-google:hover{
+		background: url(../img/googleplus_hover.png) no-repeat;
+		background-size:50px 50px;
+}

@@ -1,0 +1,89 @@
+/*
+  Indice Pop Up:
+    #Content Main PopUp
+    #Content Main PopUp Window
+    #Window Image
+    #Window Content Information
+     -Content Information Title
+     -Content Information Link
+     -Content Information Paragraph
+     -Hover Content Information Link
+    #Window Button Close
+      -Hover Window Button Close
+      -Class Hide Pop Up
+*/
+/* #Content Main PopUp */
+.container-popup{
+  display: block;
+	width: 100%;
+  position: absolute;
+  top:0;
+}
+/* #Content Main PopUp Window */
+.window-pop-up{
+  background: $color-white;
+  width: 75%;
+  position:absolute;
+  top: 260px;
+  left: 130px;
+  padding: 35px;
+  border: 3px solid $color-light-blue;
+  border-radius: 20px;
+}
+/* #Window Image */
+.window-pop-up .pop-up-image{
+  width: 45%;
+  height: 250px;
+}
+/* #Window Content Information */
+.pop-up-container-info{
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  margin-left: 45px;
+  font-size: 16px;
+}
+// Content Information Title
+.pop-up-container-info .pop-up-title{
+  color: $color-light-blue;
+  font-family: $title-font;
+}
+// Content Information Link
+.pop-up-container-info .pop-up-link{
+    border: 3px solid $color-light-blue;
+    padding: 5px 100px;
+    color: $color-light-blue;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: bold;
+  font-family: $title-font;
+}
+// Content Information Paragraph
+.pop-up-container-info .pop-up-description{
+  margin-bottom: 85px;
+}
+// Hover Content Information Link
+.pop-up-container-info .pop-up-link:hover{
+  background: $color-light-blue;
+  color: $color-white;
+}
+/* #Window Button Close */
+.button-close{
+  background: url(../img/close.png) no-repeat;
+  width: 6%;
+  height: 42px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-size: 50px;
+  cursor: pointer;
+}
+// Hover Window Button Close
+.button-close:hover{
+  background: url(../img/close-hover.png) no-repeat;
+  background-size: 50px;
+}
+// Class Hide Pop Up
+.close-content{
+  display: none;
+}

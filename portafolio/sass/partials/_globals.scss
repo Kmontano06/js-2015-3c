@@ -1,0 +1,61 @@
+/*
+	Indice Globals:
+		#Style Main
+		#Container Margin Section
+		 #Footer Main
+		 #Footer Main Information
+		 	-Footer Main Information Title
+		 	-Footer Main Information Paragraph
+		 	-Footer Main Information Dato
+		 	-Hover Footer Main Information Emails
+*/
+/*  #Style Main */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+a{
+ text-decoration: none;
+}
+/* #Container Margin Section */
+.margin-container-section{
+	margin-left:74px;
+	margin-right:74px;
+}
+/* #Footer Main */
+.footer-main{
+	background:$color-light-blue;
+	width:100%;
+  padding: 5px 0px;
+}
+/* #Footer Main Information */
+.info-contact{
+	display:inline-block;
+	line-height:4px;
+	margin-left: 74px;
+}
+// Footer Main Information Title
+.info-contact .title-contact{
+	font-family:$title-font;
+	font-size:20px;
+	color:$color-white;
+}
+// Footer Main Information Paragraph
+.info-contact .paragraph-info{
+	color:$color-black;
+	font-size:12px;
+	font-family:$body-font;
+}
+// Footer Main Information Dato
+.info-contact .dato-contact{
+	color:$color-white;
+	font-size:12px;
+}
+// Hover Footer Main Information Emails
+.link-dato-contact:hover{
+	color:$color-black;
+	text-decoration:underline;
+}

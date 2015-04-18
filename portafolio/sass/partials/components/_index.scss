@@ -1,0 +1,50 @@
+/*
+	Indice Index:
+		#Container Layer
+		#Container Layer Background
+		#Container Layer Title Main
+		#Container Layer Link
+		  -Hover Container Layer Link
+
+
+*/
+/* #Container Layer */
+.content-layer{
+	position: relative;
+  width: 100%;
+  height: 566px;
+}
+/* #Container Layer Background */
+.content-layer-background{
+	background: #000;
+  width: 100%;
+  height: 573px;
+  opacity: 0.4;
+}
+/* #Container Layer Title Main*/
+.content-title-main{
+	font-family:$title-font;
+	color:$color-white;
+	position:absolute;
+	top:185px;
+	left:410px;
+	font-size:30px;
+}
+.content-title-main .title-main{
+	margin:1px;
+}
+/* #Container Layer Link*/
+.content-layer-link{
+   border:3px solid $color-light-blue;
+   color: $color-white;
+   font-family: $title-font;
+   font-size: 25px;
+   padding:13px 35px;
+   position: absolute;
+   top: 285px;
+   left: 430px;
+}
+// Hover Container Layer Link
+.content-layer-link:hover{
+	background:$color-light-blue;
+}

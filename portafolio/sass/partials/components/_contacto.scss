@@ -1,0 +1,30 @@
+/*
+  Indice Contacto:
+    #Section Background Contact
+*/
+/* #Section Background Contact */
+.section-contact{
+  background: url(../img/background-contact.jpg) center no-repeat;
+  height: 566px;
+  background-size: 100%;
+  width: 100%;
+  margin-top: 8px;
+  font-family:$title-font;
+}
+#message-name, #message-email, #message-textarea{
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 13px;
+  width: 31%;
+  display: inline-block;
+  vertical-align: top;
+}
+.incorrecto{
+	color: red;
+	background:$color-white;
+	padding: 5px;
+}
+.correcto{
+	color: $color-pink;
+	background:$color-white;
+	padding: 5px;
+}

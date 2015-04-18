@@ -1,0 +1,40 @@
+{
+	"proyectos":[
+		{
+		  "nombre":"Proyecto Uno",
+		  "imagen":"img/proy1.jpg",
+		  "url": "#",
+		  "descripcion":"El proyecto trata de la creacion de un sitio web en donde utilmos elementos de HTML5, CSS3 y JavaScript para desarrollarlo"
+		},
+		{
+		  "nombre":"Proyecto Dos",
+		  "imagen":"img/proy2.jpg",
+		  "url": "#",
+		  "descripcion":"El proyecto trata de la creacion de un sitio web en donde utilmos elementos de HTML5, CSS3 y JavaScript para desarrollarlo"
+		},
+		{
+		  "nombre":"Proyecto Tres",
+		  "imagen":"img/proy3.png",
+		  "url": "#",
+		  "descripcion":"El proyecto trata de la creacion de un sitio web en donde utilmos elementos de HTML5, CSS3 y JavaScript para desarrollarlo"
+		},
+		{
+		  "nombre":"Proyecto Cuatro",
+		  "imagen":"img/proy4.jpg",
+		  "url": "#",
+		  "descripcion":"El proyecto trata de la creacion de un sitio web en donde utilmos elementos de HTML5, CSS3 y JavaScript para desarrollarlo"
+		},
+		{
+		  "nombre":"Proyecto Cinco",
+		  "imagen":"img/proy5.jpg",
+		  "url": "#",
+		  "descripcion":"El proyecto trata de la creacion de un sitio web en donde utilmos elementos de HTML5, CSS3 y JavaScript para desarrollarlo"
+		},
+		{
+		  "nombre":"Proyecto Seis",
+		  "imagen":"img/proy6.jpg",
+		  "url": "#",
+		  "descripcion":"El proyecto trata de la creacion de un sitio web en donde utilmos elementos de HTML5, CSS3 y JavaScript para desarrollarlo"
+		}
+	]
+}

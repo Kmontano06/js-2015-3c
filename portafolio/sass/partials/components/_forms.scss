@@ -1,0 +1,65 @@
+/*
+  Indice Forms:
+    #Form Content
+    #Form Content Inputs
+      -Textarea
+      -Submit Button
+      -Hover Submit Button
+    #Placeholders Colors
+    #Footer Content Change
+*/
+/* #Form Content */
+.form-contact{
+	margin-left:125px;
+	padding-top: 75px;
+  padding-bottom: 90px;
+  position: relative;
+  width: 70%;
+}
+/* #Form Content Inputs */
+.form-inputs{
+  display: inline-block;
+  width: 50%;
+  height: 45px;
+  margin-bottom: 10px;
+  border: 4px solid $color-pink;
+  background: transparent;
+  color: $color-white;
+  padding: 8px;
+  font-size: 15px;
+}
+// Textarea
+.message-contact{
+	height: 160px;
+}
+// Submit Button
+.button-submit{
+  border: 3px solid $color-pink;
+  padding: 13px 35px;
+  position: absolute;
+  left: 320px;
+  bottom: 40px;
+  background: transparent;
+  font-size: 15px;
+  color: $color-white;
+}
+//Hover Submit Button
+.button-submit:hover{
+  background:$color-pink;
+}
+/* #Placeholders Colors */
+::-webkit-input-placeholder { color: $color-white; }
+:-moz-placeholder { color:$color-white; }
+::-moz-placeholder { color:$color-white; }
+:-ms-input-placeholder { color:$color-white; }
+
+/* #Footer Content Change */
+.social-links-contact{
+	margin-top: 5px;
+}
+.section-contact .paragraph-info{
+  color: $color-white;
+}
+.section-contact .link-dato-contact:hover{
+  color:$color-pink;
+}

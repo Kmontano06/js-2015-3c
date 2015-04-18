@@ -1,0 +1,46 @@
+/*
+  Indice Presentacion:
+	   #Content Information
+	   	-Content Information Container-Rigth
+	   	-Content Information Container-Left
+	   	-Container Left Image
+	   #Titles and Subtitles
+*/
+
+/* #Content Information */
+.section-info{
+	margin-top:8px;
+	margin-bottom:25px;
+}
+// Content Information Container-Rigth
+.info-rigth{
+	display:inline-block;
+	width:50%;
+	vertical-align:top;
+	margin-top: 40px;
+  text-align: left;
+  font-size: 15px;
+  font-family:$body-font;
+  margin-right: 60px;
+}
+// Content Information Container-Left
+.info-left{
+	display:inline-block;
+	width:40%;
+	vertical-align:top;
+}
+// Container Left Image 
+.info-left img{
+	width:100%;
+}
+/* #Titles and Subtitles */
+.title-info{
+ 	color:$color-light-purple;
+ 	font-size: 35px;
+ 	font-family:$title-font;
+}
+.subtitle-info{
+ 	color:$color-light-blue;
+ 	font-size: 20px;
+ 	font-family:$title-font;
+}

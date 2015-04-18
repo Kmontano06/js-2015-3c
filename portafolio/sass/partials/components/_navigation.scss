@@ -1,0 +1,105 @@
+/*
+   Indice Navigation:
+     #Header Main
+     #Header Main Logo
+     #Header Main Navigation
+     	-Color Borders Pages
+     #Header Main Navigation List
+     #Header Main Navigation List Items
+     #Header Main Navigation List Links
+     #Active Pages
+     #Hover Pages
+*/
+
+
+/* #Header Main */
+.header-nav{
+	padding-bottom: 78px;
+	position:relative;
+}
+/* #Header Main Logo */
+.image-logo{
+	display:inline-block;
+  width: 100px;
+  height: 40px;
+  margin-left: 74px;
+}
+/* #Header Main Navigation */
+.navigation-main{
+	position: fixed;
+  width: 100%;
+  background: $color-white;
+  height: 86px;
+  padding-top: 24px;
+  z-index: 1;
+  border-bottom:6px solid;
+}
+// Color Borders Pages
+.navigation-border-index{
+   border-color:$color-light-blue;
+}
+.navigation-border-about{
+   border-color:$color-light-purple;
+}
+.navigation-border-projects{
+   border-color:$color-vino;
+}
+.navigation-border-contact{
+   border-color:$color-pink;
+}
+/* #Header Main Navigation List */
+.list-navigation{
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+	margin-left:580px;
+	padding-bottom:20px;
+}
+/* #Header Main Navigation List Items */
+.list-navigation .list-navigation-item{
+	display:inline-block;
+}
+/* #Header Main Navigation List Links*/
+.list-navigation .list-navigation-link{
+	color:$color-black;
+	font-family:$title-font;
+	font-size:15px;
+	padding:15px;
+
+	&:hover{
+		color:$color-white;
+		padding:15px;
+	}
+}
+/* #Active Pages */
+.active{
+	padding:15px;
+	border:2px solid;
+}
+.active-index{
+	border-color: $color-light-blue;
+}
+.active-about{
+	border-color: $color-light-purple;;
+}
+.active-projects{
+	border-color: $color-vino;
+}
+.active-contact{
+	border-color: $color-pink;
+}
+
+/* #Hover Pages */
+.link-hover-index:hover{
+	background: $color-light-blue;
+}
+.link-hover-about:hover{
+	background: $color-light-purple;
+}
+.link-hover-projects:hover{
+	background: $color-vino;
+}
+.link-hover-contact:hover{
+	background: $color-pink;
+}
+
