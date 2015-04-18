@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header class="header-nav">
+		<nav class="navigation-main navigation-border-contact">
+			<img class="image-logo" src="img/logo.png">
+		  <ul class="list-navigation">
+		  	<li class="list-navigation-item"><a class="list-navigation-link link-hover-contact" href="index.html">Inicio</a></li>
+		  	<li class="list-navigation-item"><a class="list-navigation-link link-hover-contact" href="presentacion.html">Presentacion</a></li>
+		  	<li class="list-navigation-item"><a class="list-navigation-link link-hover-contact" href="proyectos.html">Proyectos</a></li>
+		  	<li class="list-navigation-item"><a class="list-navigation-link link-hover-contact active active-contact" href="contacto.html">Contacto</a></li>
+		  </ul>		
+		</nav>
+	</header>
+	<section class="section-contact">
+		<form action="" class="form-contact">
+			<input type="text" name="nombre" value="" placeholder="Nombre" class="form-inputs name-contact"  id="name-value">
+			<div id="message-name" class="message"></div>
+			<input  class="form-inputs email-contact" type="email" name="email" value="" placeholder="Correo" id="email">
+			<div id="message-email" class="message"></div>
+			<textarea id="textarea-value" class="form-inputs message-contact" placeholder="Mensaje"></textarea>
+			<div id="message-textarea" class="message"></div>
+			<input type="button" name="enviar" value="Enviar" class="button-submit" onclick="validacion()">
+		</form>
+		<div class="info-contact">
+			<p class="paragraph-info">Telefono: 
+				<span class="dato-contact">
+					6081-0907
+				</span>
+			</p>
+			<p class="paragraph-info">Correos: 
+				<a class="dato-contact link-dato-contact" href="mailto:keniamontano06@gmail.com">keniamontano06@gmail.com</a> / 
+				<a class="dato-contact link-dato-contact" href="mailto:kenimontano.g@htomail.com">kenimontano.g@htomail.com</a>
+			</p>
+			<p class="paragraph-info">Direccion: <span class="dato-contact">Linda Vista, Patarra, Calle Laurel</span></p>
+		</div>
+		<ul class="list-network">
+			<li class="list-network-item"><a target="_blank" href="https://github.com/Kmontano06"><div class="size-image list-item-github"></div></a></li>
+			<li class="list-network-item"><a target="_blank" href="http://www.facebook.com"><div class="size-image list-item-facebook"></div></a></li>
+			<li class="list-network-item"><a target="_blank" href="http://www.twitter.com"><div class="size-image list-item-twitter"></div></a></li>
+			<li class="list-network-item"><a target="_blank" href="https://plus.google.com/u/0/111324288481509924619/posts/p/pub"><div class="size-image list-item-google"></div></a></li>
+	  </ul>
+	  <script type="text/javascript" src="js/scripts.js"></script>
+	</section>
+	
+</body>
+</html>
